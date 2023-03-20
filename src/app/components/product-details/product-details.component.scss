@@ -1,0 +1,20 @@
+.container {
+    margin: 0 auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.image {
+    max-width: 300px;
+}
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.example-card {
+    margin-right: 10px;
+}
