@@ -17,27 +17,31 @@
       "id": 2,
       "title": "MacBook Pro(Intel)",
       "price": "1000",
-      "year": "2020",
+      "year": "2021",
       "image": "assets/images/macbook.jpeg",
       "configure": {
-        "chip": "Intel i7",
-        "ssd": "256 GB",
-        "memory": "8 GB",
-        "display": "Retina"
-      }
-    },
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      },
+      "quantity": 1
+    }
+  ],
+  "basket": [
     {
-      "id": 3,
-      "title": "MacBook Pro(M1)",
-      "price": "1300",
+      "id": 1,
+      "title": "MacBook Air",
+      "price": "900",
       "year": "2021",
       "image": "assets/images/macbook.jpeg",
       "configure": {
         "chip": "M1",
-        "ssd": "512 GB",
+        "ssd": "256 GB",
         "memory": "16 GB",
-        "display": "Retina"
-      }
+        "display": " Retina"
+      },
+      "quantity": 2
     }
   ]
 }

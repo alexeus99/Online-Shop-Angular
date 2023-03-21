@@ -29,8 +29,8 @@
   </mat-form-field>
   <div class="btn-container">
   <button mat-flat-button colot="primary" type="submit">
-    Add Product
+    {{isNew? 'Add Product' : 'Update'}}
   </button>
-  <button mat-flat-button colot="primary" (click)="onNoClick()">Cancel</button>
+  <button mat-flat-button colot="primary" (click)="onNoClick()" type="button">Cancel</button>
 </div>
 </form>

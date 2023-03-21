@@ -1,11 +1,11 @@
 export interface IProducts {
-  id?: number;
+  id: number;
   title: string;
   price: number;
   year: string;
   image?: string;
-  
   configure: IProcutsConfig;
+  quantity: number;
 }
 
 export interface IProcutsConfig {
